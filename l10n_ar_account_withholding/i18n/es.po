@@ -5,14 +5,15 @@
 # Translators:
 # Pablo Montenegro, 2024
 # Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024
+# Gonzalo, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 19:01+0000\n"
+"POT-Creation-Date: 2024-12-12 21:13+0000\n"
 "PO-Revision-Date: 2024-01-30 13:07+0000\n"
-"Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
+"Last-Translator: Gonzalo, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -423,6 +424,8 @@ msgid ""
 "Are you sure you want to proceed? Have you reviewed the withholdings "
 "calculations?"
 msgstr ""
+"¿Estás seguro de que deseas continuar? ¿Has revisado los cálculos de las "
+"retenciones?"
 
 #. module: l10n_ar_account_withholding
 #: model:ir.model.fields,field_description:l10n_ar_account_withholding.field_res_partner_arba_alicuot__api_articulo_inciso_calculo_percepcion
@@ -493,7 +496,7 @@ msgstr ""
 #. module: l10n_ar_account_withholding
 #: model_terms:ir.ui.view,arch_db:l10n_ar_account_withholding.view_account_payment_form
 msgid "Compute Withholdings"
-msgstr ""
+msgstr "Computar Retenciones"
 
 #. module: l10n_ar_account_withholding
 #: model:ir.model.fields,field_description:l10n_ar_account_withholding.field_afip_tabla_ganancias_alicuotasymontos__concepto_referencia
@@ -960,7 +963,7 @@ msgstr ""
 #. module: l10n_ar_account_withholding
 #: model_terms:ir.ui.view,arch_db:l10n_ar_account_withholding.view_account_payment_form
 msgid "Withholding may apply. We suggest compute them."
-msgstr ""
+msgstr "Retenciones podrían ser aplicables. Sugerimos calcularlas."
 
 #. module: l10n_ar_account_withholding
 #. odoo-python
