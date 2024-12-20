@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-17 22:56+0000\n"
+"POT-Creation-Date: 2024-12-20 02:26+0000\n"
 "PO-Revision-Date: 2024-11-14 20:20+0000\n"
 "Last-Translator: Juan José Scarafía <scarafia.juanjose@gmail.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/adhoc/teams/46451/es/)\n"
@@ -108,11 +108,6 @@ msgstr "Cuenta"
 #: model:ir.model,name:l10n_ar_ux.model_account_chart_template
 msgid "Account Chart Template"
 msgstr "Plantilla de plan contable"
-
-#. module: l10n_ar_ux
-#: model:ir.model,name:l10n_ar_ux.model_account_account_tag
-msgid "Account Tag"
-msgstr "Etiqueta de cuenta"
 
 #. module: l10n_ar_ux
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_res_company__l10n_ar_report_signed_by
@@ -241,6 +236,11 @@ msgstr "Ajustes de configuración"
 #: model:ir.model,name:l10n_ar_ux.model_res_partner
 msgid "Contact"
 msgstr "Contacto"
+
+#. module: l10n_ar_ux
+#: model:ir.model,name:l10n_ar_ux.model_res_country_state
+msgid "Country state"
+msgstr "Provincia del país"
 
 #. module: l10n_ar_ux
 #: model:ir.model.fields,field_description:l10n_ar_ux.field_account_move_change_rate__create_uid
@@ -445,126 +445,6 @@ msgid "Journal Item"
 msgstr "Apunte contable"
 
 #. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_901
-msgid "Jur: 901 - Capital Federal"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_902
-msgid "Jur: 902 - Buenos Aires"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_903
-msgid "Jur: 903 - Catamarca"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_904
-msgid "Jur: 904 - Córdoba"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_905
-msgid "Jur: 905 - Corrientes"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_906
-msgid "Jur: 906 - Chaco"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_907
-msgid "Jur: 907 - Chubut"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_908
-msgid "Jur: 908 - Entre Ríos"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_909
-msgid "Jur: 909 - Formosa"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_910
-msgid "Jur: 910 - Jujuy"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_911
-msgid "Jur: 911 - La Pampa"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_912
-msgid "Jur: 912 - La Rioja"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_913
-msgid "Jur: 913 - Mendoza"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_914
-msgid "Jur: 914 - Misiones"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_915
-msgid "Jur: 915 - Neuquén"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_916
-msgid "Jur: 916 - Río Negro"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_917
-msgid "Jur: 917 - Salta"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_918
-msgid "Jur: 918 - San Juan"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_919
-msgid "Jur: 919 - San Luis"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_920
-msgid "Jur: 920 - Santa Cruz"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_921
-msgid "Jur: 921 - Santa Fe"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_922
-msgid "Jur: 922 - Santiago del Estero"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_923
-msgid "Jur: 923 - Tierra del Fuego"
-msgstr ""
-
-#. module: l10n_ar_ux
-#: model:account.account.tag,name:l10n_ar_ux.tag_tax_jurisdiccion_924
-msgid "Jur: 924 - Tucumán"
-msgstr ""
-
-#. module: l10n_ar_ux
 #. odoo-python
 #: code:addons/l10n_ar_ux/models/res_partner.py:0
 msgid ""
@@ -576,8 +456,7 @@ msgstr ""
 "jurisdicciones. "
 
 #. module: l10n_ar_ux
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_account_tag__jurisdiction_code
-#: model:ir.model.fields,field_description:l10n_ar_ux.field_account_tax__jurisdiction_code
+#: model:ir.model.fields,field_description:l10n_ar_ux.field_res_country_state__jurisdiction_code
 msgid "Jurisdiction Code"
 msgstr "Código de jurisdicción"
 
@@ -846,11 +725,6 @@ msgid ""
 msgstr ""
 "Texto para generar el código QR que será mostrado en el reporte de la "
 "factura."
-
-#. module: l10n_ar_ux
-#: model:ir.model,name:l10n_ar_ux.model_account_tax
-msgid "Tax"
-msgstr "Impuesto"
 
 #. module: l10n_ar_ux
 #: model:ir.ui.menu,name:l10n_ar_ux.menu_action_afip_tax
